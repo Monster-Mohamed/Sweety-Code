@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
     <div className="layout">
       <Toaster />
       <Head>
-        <title>Sweety Code</title>
+        <title>Sweety Store</title>
       </Head>
       <header>
         <Navbar />
