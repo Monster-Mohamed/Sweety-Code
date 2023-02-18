@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <p className="logo">
-        <Link href="/">Sweety Code</Link>
+        <Link href="/">Sweety Store</Link>
       </p>
       <button className="cart-icon" onClick={toggleCart}>
         <AiOutlineShopping />
