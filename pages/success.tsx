@@ -1,12 +1,11 @@
 import { useCart } from '@/context/Cart';
 import { runFireworks } from '@/libs/utils';
 import Link from 'next/link';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { BsBagCheckFill } from 'react-icons/bs';
 
 const Success = () => {
   const { clear } = useCart();
-  const [order, setOrder] = useState(null);
 
   useEffect(() => {
     clear();
